@@ -1,5 +1,5 @@
 # Pluto.Edu
-Educational Notebook Sample Collection
+#### Educational Notebook Sample Collection
 
 Notebook titles will be structured as follows:
 
