@@ -7,4 +7,6 @@ subject.medianAge.contributor.nbType
   subject may have sub heading camel case
   contributor will attribute to the original
   contributorParadocs will be a modification
+  
+ Example: 
 mathAlgebra.12.paradocs.multchoice.jl
