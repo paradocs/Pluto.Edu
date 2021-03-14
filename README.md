@@ -3,7 +3,7 @@
 
 Notebook titles will be structured as follows:  
 
-###### subject.medianAge.contributor.nbType
+`subject.medianAge.contributor.nbType`
 
   subject may have sub heading camel case  
   contributor will attribute to the original  
