@@ -5,9 +5,9 @@ Notebook titles will be structured as follows:
 
 `subject.medianAge.contributor.nbType`
 
-  subject may have sub heading camel case  
-  contributor will attribute to the original  
+  subject may have camel case subheadings  
+  contributor will be an attributin to the original  
   contributorParadocs will be a modification  
   
  Example:  
-mathAlgebra.12.paradocs.multchoice.jl  
+`mathAlgebra.12.paradocs.multchoice.jl`
