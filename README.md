@@ -10,5 +10,5 @@ Notebook titles will be structured as follows:
   contributorParadocs will be a modification  
   
  Examples:  
-`engNounVerb.8.paradocs.completion.jl` 
+`engNounVerb.8.paradocs.completion.jl`  
 `mathAlgebra.12.paradocs.multchoice.jl`  
