@@ -17,3 +17,5 @@ Notebook titles will be structured as follows:
 `mathAlgebraInequalities.12.paradocs.multchoice.jl`  
 `artDigitalSymmetry.10.paradocs.jl`  
 `artDigitalAuthenticityBlockChain.16.paradocs.jl`  
+`musCircleOf5ths.13.paradocs.jl`
+`musCadence.16.paradocs.jl`
