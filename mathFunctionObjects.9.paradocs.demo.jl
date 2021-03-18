@@ -16,10 +16,10 @@ md"""
 #### sqrt()  
 ##### ??? What is this?  
 ####  Pluto 🛡️ to the rescue!  
-##### Doing Things have a name.$~~$ Here that is $~~ sqrt$
+##### Doing Things have a name.$~~$ This name is $~~ sqrt$
 ##### The $~~$()$~~$ is a place for something to worked on.   
-##### Doing Things can be copied to a new name.
-##### We may like one,$~$ but both do the same job.
+##### Doing Things can teach a new name to do the same work.
+##### We may like one,$~$ but both will do the same job.
 """
 
 # ╔═╡ f4835c0a-67db-11eb-134c-85092b5a1ced
@@ -27,26 +27,28 @@ md"""
 ##### Looking for a short
 ##### cut across a square 🔲?
 ##### Walking on the edges is longer.
-##### But corner to corner is shortest,
-##### We call it the root 🥕.
+##### But corner to corner is shortest.
+##### We call the shortest, the root 🥕.
 """
 
 # ╔═╡ 1976e31c-67df-11eb-2d4a-1d8e612a99a9
 
 md"""
 ##### sqrt() is a Doing Thing
-##### called a function.
+##### and is called a function.
 ##### It can tells how far it
-##### is across a 1 by 1 🔲.
+##### is across a 1 by 1 🔲
+##### Instead of going on the sides,
+##### place 1 + 1 inside of ()
 """
 
 
 # ╔═╡ fca3b432-86f8-11eb-3086-b3adfccd0cda
-sqrt(2)
+sqrt(1+1)
 
 # ╔═╡ 84554b8a-67ce-11eb-2e10-7550cbde4485
 md"""
-##### Hard to think of sqrt?
+##### Hard to think that $~$sqrt$~$ means square root?
 ##### I bet you will never forget
 ## 🔲🥕
 ##### Let's use $~$=$~$ to make a new Doing Thing.
@@ -63,7 +65,7 @@ md"""
 """
 
 # ╔═╡ 1c3a7e52-67d1-11eb-0c5a-a5b36b4fc989
-🔲🥕(2)
+🔲🥕(1+1)
 
 
 # ╔═╡ 7dab943e-86f9-11eb-284d-4fb84d4c9b63
