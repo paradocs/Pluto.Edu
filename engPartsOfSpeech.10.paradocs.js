@@ -13,51 +13,29 @@ macro bind(def, element)
     end
 end
 
-# ╔═╡ 1cca1344-8c7f-11eb-2fd7-696728255c80
-using InteractiveUtils  
-
-# ╔═╡ 0073fece-8c81-11eb-2b48-151f1752f8f7
-using PlutoUI;
-
-# ╔═╡ 7a6936be-8d16-11eb-0a34-c7e3704e4e77
-md"""
-# Hello!``~~~`` I am your Pluto Notebook!
-* Scientist use Notebooks to find new thing.
-* You can have fun learning these new things.
-* Sliders and Scrubbers let you try.``~~``Don't worry.  
-* You do not need to erase,``~~`` just try again.
-* Practice and you will be a Notebook Scientist!
-"""
-
 # ╔═╡ 38db4d40-8d1b-11eb-37fc-89b3bcb5f9c6
 begin
 import Pkg
 	Pkg.activate(mktempdir())
+using InteractiveUtils 	
+using PlutoUI
 end	
 
-# ╔═╡ e9f3d90a-8c81-11eb-2adc-5fb66a6341e5
-word1List = [" ____ " "cow" "   cat   " "dog" "rooster" "pig";
-" ____ " "said oink oink" "said moo" "said meow" "said cock-a-doodle-doo" "said bow bow"];
-
-# ╔═╡ 5600460c-8c92-11eb-0d30-6ffbc6077b55
-posList = ["_______" "article" "noun" "pronoun" "verb" "adjective" "adverb" "preposition" "conjunction"  "exclamation"];
+# ╔═╡ 7a6936be-8d16-11eb-0a34-c7e3704e4e77
+md"""
+# Hello!``~~~`` I am your ``~``🛡️ Pluto Notebook!
+* Scientists use Notebooks to find new things.
+* You can have fun finding and learning new things.
+* Sliders and Scrubbers let you try.``~~``Don't worry.  
+* You do not need to erase,``~~`` just try again.
+* Practice and you will be a Notebook Scientist!
+"""
 
 # ╔═╡ 93322ebe-8c85-11eb-2ea7-15d8ec2977aa
 md"""noun
 $(@bind word1 Slider(1:6; default=1, show_value=false)) 
 verb + word pair 
 $(@bind word2 Slider(1:6; default=1, show_value=false)) 
-"""
-
-# ╔═╡ 5c1cff3a-8c83-11eb-3067-4bf2500585d4
- md"""
-
-!!! first
-
-#### ``~~~~~~~~~~~~~~~~~``Click and Drag or Click before or Click after.
-#### ``~~~~~~~~~~~~~~``Move the sliders to pick the words that go together.
-##### ``~~~~~~~~~~~~~~~~``These are called word pairs.  Think of some more word pairs.
-# The $(word1List[1, word1]) $(word1List[2, word2]) .
 """
 
 # ╔═╡ 017d84c4-8cac-11eb-23ad-53aeacf5028b
@@ -76,6 +54,24 @@ $(@bind pos6 Scrubbable(1 : 10; default=1))
 
 
 
+# ╔═╡ e9f3d90a-8c81-11eb-2adc-5fb66a6341e5
+word1List = [" ____ " "cow" "   cat   " "dog" "rooster" "pig";
+" ____ " "said oink oink" "said moo" "said meow" "said cock-a-doodle-doo" "said bow bow"];
+
+# ╔═╡ 5c1cff3a-8c83-11eb-3067-4bf2500585d4
+ md"""
+
+!!! first
+
+#### ``~~~~~~~~~~~~~~~~~``Click and Drag -or- Click ahead or after the slicer.
+#### ``~~~~~~~~~~~~~~``Move the sliders to pick the words that go together.
+##### ``~~~~~~~~~~~~~~``These are called word pairs. ``~~`` Think of some more word pairs.
+# The $(word1List[1, word1]) $(word1List[2, word2]) .
+"""
+
+# ╔═╡ 5600460c-8c92-11eb-0d30-6ffbc6077b55
+posList = ["_______" "article" "noun" "pronoun" "verb" "adjective" "adverb" "preposition" "conjunction"  "exclamation"];
+
 # ╔═╡ b27de8d8-8c8f-11eb-280f-a7eaad09372d
 md"""
 
@@ -93,12 +89,10 @@ md"""
 
 # ╔═╡ Cell order:
 # ╟─7a6936be-8d16-11eb-0a34-c7e3704e4e77
-# ╟─38db4d40-8d1b-11eb-37fc-89b3bcb5f9c6
-# ╟─1cca1344-8c7f-11eb-2fd7-696728255c80
-# ╟─0073fece-8c81-11eb-2b48-151f1752f8f7
-# ╟─e9f3d90a-8c81-11eb-2adc-5fb66a6341e5
-# ╟─5600460c-8c92-11eb-0d30-6ffbc6077b55
 # ╟─5c1cff3a-8c83-11eb-3067-4bf2500585d4
 # ╟─93322ebe-8c85-11eb-2ea7-15d8ec2977aa
 # ╟─b27de8d8-8c8f-11eb-280f-a7eaad09372d
 # ╟─017d84c4-8cac-11eb-23ad-53aeacf5028b
+# ╟─38db4d40-8d1b-11eb-37fc-89b3bcb5f9c6
+# ╟─e9f3d90a-8c81-11eb-2adc-5fb66a6341e5
+# ╟─5600460c-8c92-11eb-0d30-6ffbc6077b55
