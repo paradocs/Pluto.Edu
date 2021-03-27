@@ -5,10 +5,10 @@ Notebook titles will be structured as follows:
 
 `subject.medianAge.contributor.nbType`
 
--  subject may have camel case subheadings  
+-  subject may have camel case subheadings
+-  medianAge for after junior in college use + 
 -  contributor will be an attribution to the original  
 -  Contributor-Paradocs will be a modified work
--  medianAge for after junior in college use + 
 
  Examples:  
 `engStoryTellingChain.7.paradocs.select.jl`  
