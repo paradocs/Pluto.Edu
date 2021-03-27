@@ -7,7 +7,8 @@ Notebook titles will be structured as follows:
 
 -  subject may have camel case subheadings  
 -  contributor will be an attribution to the original  
--  contributorParadocs will be a modification  
+-  Contributor-Paradocs will be a modified work
+-  medianAge for after junior in college use + 
 
  Examples:  
 `engStoryTellingChain.7.paradocs.select.jl`  
