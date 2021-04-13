@@ -79,7 +79,7 @@ md"""
 |_____1______|_____2______|_____3______|_____4______|_____5______|_____6______|
 |:----------:|:-------:|:--------:|:---------:|:---------:|:-------:|
 | The   | cow | jumped  |over|the|moon.|
-| $(posList[1])|$(posList[pos2]) |  $(posList[pos3])|$(posList[pos4])|$(posList[pos5]) |  $(posList[pos6])|
+| $(posList[pos1])|$(posList[pos2]) |  $(posList[pos3])|$(posList[pos4])|$(posList[pos5]) |  $(posList[pos6])|
  
 """
 
@@ -90,7 +90,7 @@ html"""
 
 
 # ╔═╡ Cell order:
-# ╟─38db4d40-8d1b-11eb-37fc-89b3bcb5f9c6
+# ╠═38db4d40-8d1b-11eb-37fc-89b3bcb5f9c6
 # ╟─7a6936be-8d16-11eb-0a34-c7e3704e4e77
 # ╟─e9f3d90a-8c81-11eb-2adc-5fb66a6341e5
 # ╟─93322ebe-8c85-11eb-2ea7-15d8ec2977aa
