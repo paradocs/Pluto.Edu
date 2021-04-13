@@ -79,7 +79,7 @@ md"""
 |_____1______|_____2______|_____3______|_____4______|_____5______|_____6______|
 |:----------:|:-------:|:--------:|:---------:|:---------:|:-------:|
 | The   | cow | jumped  |over|the|moon.|
-| $(posList[pos1])|$(posList[pos2]) |  $(posList[pos3])|$(posList[pos4])|$(posList[pos5]) |  $(posList[pos6])|
+| $(posList[1])|$(posList[pos2]) |  $(posList[pos3])|$(posList[pos4])|$(posList[pos5]) |  $(posList[pos6])|
  
 """
 
